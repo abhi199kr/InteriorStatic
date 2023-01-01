@@ -1,0 +1,9 @@
+.ci{
+    height: 450px;
+}
+@media screen and (max-width:480px) {
+    .ci{
+        height: 250px;
+    }
+    
+}
