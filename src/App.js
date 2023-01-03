@@ -9,10 +9,13 @@ import Desgin from './Component/Desgin';
 import Team from './Component/Team';
 import Blog from './Component/Blog';
 import Gallery from './Component/Gallery';
+import Contact from './Component/Contact';
+import Footer from './Component/Footer';
 
 function App() {
   return (
    <>
+   <div className='bs'>
     <Header/>
     <Carousell/>
     <Services/>
@@ -21,6 +24,9 @@ function App() {
     <Team/>
     <Blog/>
     <Gallery/>
+    <Contact/>
+    <Footer/>
+    </div>
    </>
   );
 }

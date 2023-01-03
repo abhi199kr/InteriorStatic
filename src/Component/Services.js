@@ -1,10 +1,16 @@
 import React from 'react'
 import "./Services.css"
 import la from "../Images/la.avif"
-import {BsFillSuitHeartFill } from 'react-icons/bs';
+import {BsFillSuitHeartFill, BsHandThumbsUp } from 'react-icons/bs';
+import {BsFlagFill } from 'react-icons/bs';
+import {BsFillHandThumbsUpFill } from 'react-icons/bs';
+import {BsFillCloudFill} from 'react-icons/bs';
+import {GiCarWheel } from 'react-icons/gi';
+import {CiBank } from 'react-icons/ci';
 
 const Services = () => {
   return (
+    <div className=''>
     <div className='container'>
     <h1 className='text-center mt-5 o'>Our Services</h1>
       <p className='p-5 text-center'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae eum minus est dolores modi non! Dolorem beatae, velit ex voluptates architecto at debitis harum sit perferendis obcaecati nisi, alias labore?
@@ -12,7 +18,7 @@ const Services = () => {
 
       {/* flex contaienr */}
       <div className="d-flex flex-md-row flex-column gap-5">
-        <div className='d-flex gap-5'>
+        <div className='d-flex cs gap-1'>
         <div>
         <BsFillSuitHeartFill className='pt-5' style={{fontSize:"100px"}}/>
 
@@ -25,9 +31,9 @@ const Services = () => {
 
         </div>
 
-        <div className='d-flex'>
+        <div className='d-flex cs gap-1'>
         <div>
-        <BsFillSuitHeartFill/>
+        <BsFlagFill className='pt-5' style={{fontSize:"100px"}}/>
 
         </div>
         <div>
@@ -38,9 +44,9 @@ const Services = () => {
 
         </div>
 
-        <div className='d-flex'>
+        <div className='d-flex cs gap-1'>
         <div>
-        <BsFillSuitHeartFill/>
+        <BsFillHandThumbsUpFill  className='pt-5' style={{fontSize:"100px"}}/>
 
         </div>
         <div>
@@ -55,9 +61,9 @@ const Services = () => {
 
        {/* 2nd flex contaienr */}
        <div className="d-flex flex-md-row flex-column gap-5 mt-5">
-        <div className='d-flex gap-5'>
+        <div className='d-flex cs gap-1'>
         <div>
-        <BsFillSuitHeartFill className='pt-5' style={{fontSize:"100px"}}/>
+        <GiCarWheel className='pt-5' style={{fontSize:"100px"}}/>
 
         </div>
         <div>
@@ -68,9 +74,9 @@ const Services = () => {
 
         </div>
 
-        <div className='d-flex'>
+        <div className='d-flex cs gap-1'>
         <div>
-        <BsFillSuitHeartFill/>
+        <BsFillCloudFill className='pt-5' style={{fontSize:"100px"}}/>
 
         </div>
         <div>
@@ -81,9 +87,9 @@ const Services = () => {
 
         </div>
 
-        <div className='d-flex'>
+        <div className='d-flex cs gap-1'>
         <div>
-        <BsFillSuitHeartFill/>
+        <CiBank className='pt-5' style={{fontSize:"100px"}} />
 
         </div>
         <div>
@@ -94,6 +100,7 @@ const Services = () => {
 
         </div>
       </div>
+    </div>
     </div>
   )
 }

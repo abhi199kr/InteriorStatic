@@ -1,0 +1,16 @@
+
+Navbar{
+    background-color: #33383b!important;
+    font-size: xx-large;
+    font-weight: 500!important;
+
+}
+.n:hover{
+    border-bottom: 2px solid white;
+    color: blue!important;
+
+}
+.brand:hover{
+    border: 2px solid white;
+    padding: 5px 20px;
+}

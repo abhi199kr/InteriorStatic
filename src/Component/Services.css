@@ -5,3 +5,27 @@
     padding: 10px;
     padding-bottom: 20px;
 }
+.bs{
+    background-color: rgba(128, 128, 128, 0.246);
+}
+.o{
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgb(59, 59, 69) 0%, rgb(75, 75, 196) 35%, rgba(0,212,255,1) 100%);
+}
+.o:hover{
+    background-color: white;
+    /* color: linear-gradient(90deg, rgb(59, 59, 69) 0%, rgb(75, 75, 196) 35%, rgba(0,212,255,1) 100%); */
+}
+.o:hover{
+   
+   background: linear-gradient(90deg, rgb(170, 16, 93) 0%, rgb(75, 196, 99) 35%, rgb(0, 42, 255) 100%);
+transform: rotate(20deg);
+}
+.cs:hover{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+}
