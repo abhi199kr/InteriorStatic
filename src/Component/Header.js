@@ -6,7 +6,7 @@ import "./Header.css"
 
 function Header() {
   return (
-    <Navbar className='text-light' collapseOnSelect expand="lg" style={{backgroundColor: '#33383b'}}  variant="">
+    <Navbar className='text-light' fixed='top' collapseOnSelect expand="lg" style={{backgroundColor: '#33383b'}}  variant="">
       <Container className='text-light'>
         <Navbar.Brand href="#home" className='text-light brand'>INTERIOR</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className=' bg-success' />

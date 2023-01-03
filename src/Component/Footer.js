@@ -24,7 +24,7 @@ const Footer = () => {
   <div className="footer-center col-md-4 col-sm-6">
     <div>
       <i className="fa fa-map-marker"></i>
-      <p><span> Street name and number</span> City, Country</p>
+      <p><span>SKMCH ROAD and 17</span> MUZAFFARPUR, INDIA</p>
     </div>
     <div>
       <i className="fa fa-phone"></i>
@@ -45,7 +45,7 @@ const Footer = () => {
       <a href="#"> News</a> |
       <a href="#"> Contact</a>
     </p>
-    <p className="name"> Company Name &copy; 2016</p>
+    <p className="name">Interior &copy; 2016</p>
   </div>
 
 </footer>

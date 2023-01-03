@@ -1,0 +1,27 @@
+.ct:hover{
+    transform: rotate(10deg);
+}
+.a{
+    background-color:navy ;
+    border-radius: 5px;
+    color: white;
+
+}
+.b{
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+
+}
+.c{
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+
+}
+.d{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+
+}

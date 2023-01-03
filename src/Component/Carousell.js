@@ -5,8 +5,8 @@ function Carousell() {
     <Carousel>
       <Carousel.Item interval={1000}>
         <img
-          className="d-block ci w-100 "
-          src="https://media.istockphoto.com/id/1368262606/photo/tall-powerful-cross-ocean-wave-breaking-during-a-dark-stormy-evening.jpg?b=1&s=170667a&w=0&k=20&c=jJPEMU8rTpHmVzQ41yijTHuokjfWObZrp-Noe8n7F5s="
+          className="d-block ci w-100  "
+          src="https://images.unsplash.com/photo-1549558549-415fe4c37b60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1119&q=80"
 
           alt="First slide"
         />
@@ -15,7 +15,7 @@ function Carousell() {
       <Carousel.Item interval={500}>
         <img
           className="d-block ci w-100"
-          src="https://media.istockphoto.com/id/1368262606/photo/tall-powerful-cross-ocean-wave-breaking-during-a-dark-stormy-evening.jpg?b=1&s=170667a&w=0&k=20&c=jJPEMU8rTpHmVzQ41yijTHuokjfWObZrp-Noe8n7F5s="
+          src="https://images.unsplash.com/photo-1470115636492-6d2b56f9146d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
           alt="Second slide"
         />
        
@@ -23,7 +23,7 @@ function Carousell() {
       <Carousel.Item interval={500}>
         <img
           className="d-block ci w-100"
-          src="https://media.istockphoto.com/id/1383796215/photo/silhouette-of-man-holding-binoculars-on-mountain-peak-against-bright-sunlight-sky-background.jpg?b=1&s=170667a&w=0&k=20&c=k9GxkAG2AvIySSEcXvqWwvNW79eYRlKE84EsvvdbxO0="
+          src="https://images.unsplash.com/photo-1466133633688-187f0b492390?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"
           alt="Second slide"
         />
        
