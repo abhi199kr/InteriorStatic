@@ -11,7 +11,7 @@ function Header() {
         <Navbar.Brand href="#home" className='text-light brand'>INTERIOR</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className=' bg-success' />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="mla gap-3">
             <Nav.Link className='text-light  n' href="#features">Home</Nav.Link>
             <Nav.Link className='text-light n' href="#pricing">Services</Nav.Link>
             <Nav.Link className='text-light n' href="#pricing">About Us</Nav.Link>

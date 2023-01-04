@@ -10,7 +10,7 @@ import {CiBank } from 'react-icons/ci';
 
 const Services = () => {
   return (
-    <div className=''>
+    <div className='sbg'>
     <div className='container'>
     <h1 className='text-center mt-5 o'>Our Services</h1>
       <p className='p-5 text-center'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae eum minus est dolores modi non! Dolorem beatae, velit ex voluptates architecto at debitis harum sit perferendis obcaecati nisi, alias labore?

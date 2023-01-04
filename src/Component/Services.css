@@ -21,11 +21,23 @@
 }
 .o:hover{
    
-   background: linear-gradient(90deg, rgb(170, 16, 93) 0%, rgb(75, 196, 99) 35%, rgb(0, 42, 255) 100%);
-transform: rotate(20deg);
+   background: linear-gradient(90deg, rgb(16, 170, 70) 0%, rgb(75, 196, 99) 35%, rgb(0, 42, 255) 100%);
+transform: rotate(10deg);
+color: rgba(0, 0, 0, 0.771);
+}
+.cs{
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.103);
+    border-radius: 20px;
+}
+.cs:hover{
+    color: white;
+    background-color: black;
 }
 .cs:hover{
     border: 2px solid black;
-    padding: 10px;
-    border-radius: 20px;
+}
+.sbg{
+    /* background-color: white; */
+    padding: 20px;
 }

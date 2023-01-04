@@ -1,27 +1,45 @@
-.ct:hover{
-    transform: rotate(10deg);
+.ct{
+    border: 1px solid rgba(0, 0, 0, 0.562)!important;
+    border-radius: 8px;
+    object-fit: cover;
 }
+.cii{
+    border-radius: 8px 8px 0 0;
+}
+.ct:hover{
+    transform: rotate(5deg);
+}
+
 .a{
     background-color:navy ;
     border-radius: 5px;
     color: white;
+    border: none;
+    padding-bottom: 3px;
 
 }
 .b{
     background-color: blue;
     border-radius: 5px;
     color: white;
+    border: none;
+    padding-bottom: 3px;
 
 }
 .c{
     background-color: red;
     border-radius: 5px;
     color: white;
+    border: none;
+    padding-bottom: 3px;
 
 }
 .d{
     background-color: black;
     border-radius: 5px;
     color: white;
+    border: none;
+    /* padding: 2px; */
+    padding-bottom: 3px;
 
 }

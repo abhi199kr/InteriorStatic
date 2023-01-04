@@ -44,13 +44,13 @@ const Contact = () => {
 
             <section id="contact">
   
-  <h1 class="section-header">Contact</h1>
+  <h1 class="section-header text-center text-white">Contact</h1>
   
-  <div class="contact-wrapper">
+  <div class="contact-wrapper text-center">
   
  
     
-    <form id="contact-form" class="form-horizontal p-1" role="form">
+    <form id="contact-form" class="form-horizontal p-3" role="form">
        
       <div class="form-group">
         <div class="col-sm-12">
@@ -58,7 +58,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div class="form-group">
+      <div class="form-group my-3">
         <div class="col-sm-12">
           <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required/>
         </div>

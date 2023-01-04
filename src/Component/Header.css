@@ -3,14 +3,18 @@ Navbar{
     background-color: #33383b!important;
     font-size: xx-large;
     font-weight: 500!important;
+    /* height: 50px; */
 
 }
 .n:hover{
     border-bottom: 2px solid white;
-    color: blue!important;
+    color: crimson!important;
 
 }
 .brand:hover{
     border: 2px solid white;
     padding: 5px 20px;
+}
+.mla{
+    margin-left: auto;
 }
