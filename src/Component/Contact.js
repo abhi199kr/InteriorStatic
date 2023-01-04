@@ -16,7 +16,7 @@ const Contact = () => {
         </div>
         <div className='w-md-50 w-100'>
         <div className="w-fit">
-            <form action="" className='p-3 card'>
+            {/* <form action="" className='p-3 card'>
                 <label className='h3' htmlFor="">Name
                 <br />
                 <input type="text" /></label>
@@ -40,7 +40,50 @@ const Contact = () => {
                 </label>
                 <br />
                 <button className='btn btn-success'>Send Message</button>
-            </form>
+            </form> */}
+
+            <section id="contact">
+  
+  <h1 class="section-header">Contact</h1>
+  
+  <div class="contact-wrapper">
+  
+ 
+    
+    <form id="contact-form" class="form-horizontal p-1" role="form">
+       
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required/>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required/>
+        </div>
+      </div>
+
+      <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+      
+      <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+        {/* <div class="alt-send-button">
+          <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+        </div> */}
+        send
+      
+      </button>
+      
+    </form>
+    
+  
+    
+    
+    
+  </div>
+  
+</section>  
+  
         </div>
 
         </div>
